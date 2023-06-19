@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ClubAdulte: one
+  ClubTeevo: one
+  ClubJeuneLecteur: one
+
+two:
+  ClubAdulte: two
+  ClubTeevo: two
+  ClubJeuneLecteur: two
