@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @inscription %>
+
+<div>
+  <%= link_to "Edit this inscription", edit_inscription_path(@inscription) %> |
+  <%= link_to "Back to inscriptions", inscriptions_path %>
+
+  <%= button_to "Destroy this inscription", @inscription, method: :delete %>
+</div>

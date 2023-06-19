@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Inscriptions</h1>
+
+<div id="inscriptions">
+  <% @inscriptions.each do |inscription| %>
+    <%= render inscription %>
+    <p>
+      <%= link_to "Show this inscription", inscription %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New inscription", new_inscription_path %>

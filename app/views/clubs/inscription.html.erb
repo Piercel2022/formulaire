@@ -1,0 +1,23 @@
+<h1>Inscription au club <%= @club.name %></h1>
+
+<%= form_with model: [@club, @inscription], url: club_create_inscription_path(@club), local: true do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  <div class="field">
+    <%= form.label :age %>
+    <%= form.number_field :age %>
+  </div>
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.email_field :email %>
+  </div>
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone %>
+  </div>
+  <div class="actions">
+    <%= form.submit 'Envoyer' %>
+  </div>
+<% end %>
