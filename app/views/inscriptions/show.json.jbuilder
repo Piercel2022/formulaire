@@ -1,1 +1,1 @@
-json.partial! "inscriptions/inscription", inscription: @inscription
+json.partial! 'inscriptions/inscription', inscription: @inscription

@@ -1,1 +1,1 @@
-json.array! @inscriptions, partial: "inscriptions/inscription", as: :inscription
+json.array! @inscriptions, partial: 'inscriptions/inscription', as: :inscription

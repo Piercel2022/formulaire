@@ -1,4 +1,4 @@
-require "test_helper"
+require 'test_helper'
 
 class InscriptionTest < ActiveSupport::TestCase
   # test "the truth" do
