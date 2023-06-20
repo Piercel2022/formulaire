@@ -83,11 +83,18 @@ h1 {
 .lieu {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 50%;
+  padding: 2em;
+  margin: 2em auto;
 }
 
 .container-formulaire {
   display: flex;
   justify-content: center;
+  text-decoration-style: none;
+  -moz-text-decoration-style: none;
 }
 
 .back-to-home {
