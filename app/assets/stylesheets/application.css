@@ -44,29 +44,31 @@ h1 {
   display: block;
 }
 
-.main-text{
+.main-text {
   display: flex;
   justify-content: center;
 }
+
 .club-adulte {
   display: flex;
   justify-content: center;
 }
 
-.club-ado{
-    display: flex;
-    justify-content: center;
-  }
-
-.lieu{
-    display: flex;
-    justify-content: center;
+.club-ado {
+  display: flex;
+  justify-content: center;
 }
 
-.container-formulaire{
-    display: flex;
-    justify-content: center;
+.lieu {
+  display: flex;
+  justify-content: center;
 }
+
+.container-formulaire {
+  display: flex;
+  justify-content: center;
+}
+
 .back-to-home {
   display: flex;
   justify-content: center;
