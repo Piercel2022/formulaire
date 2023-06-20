@@ -52,6 +52,7 @@ h1 {
 .club-adulte {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   border: 1px solid gray;
   width: 50%;
     padding: 2em;
@@ -61,15 +62,17 @@ h1 {
 .club-ado {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   border: 1px solid gray;
   width: 50%;
-    padding: 2em;
-    margin: 2em auto;
+  padding: 2em;
+  margin: 2em auto;
 }
 
 .club-jeunes {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     border: 1px solid gray;
     width: 50%;
     padding: 2em;
@@ -90,4 +93,9 @@ h1 {
 .back-to-home {
   display: flex;
   justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
 }
