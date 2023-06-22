@@ -55,8 +55,8 @@ h1 {
   flex-direction: column;
   border: 1px solid gray;
   width: 50%;
-    padding: 2em;
-    margin: 2em auto;
+  padding: 2em;
+  margin: 2em auto;
 }
 
 .club-ado {
@@ -70,15 +70,14 @@ h1 {
 }
 
 .club-jeunes {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border: 1px solid gray;
-    width: 50%;
-    padding: 2em;
-    margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 50%;
+  padding: 2em;
+  margin: 2em auto;
 }
-  
 
 .lieu {
   display: flex;
@@ -93,8 +92,6 @@ h1 {
 .container-formulaire {
   display: flex;
   justify-content: center;
-  text-decoration-style: none;
-  -moz-text-decoration-style: none;
 }
 
 .back-to-home {
@@ -102,7 +99,7 @@ h1 {
   justify-content: center;
 }
 
-.text{
-    display: flex;
-    justify-content: center;
+.text {
+  display: flex;
+  justify-content: center;
 }
