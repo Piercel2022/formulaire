@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+ /** Import Font **/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 h1 {
   display: flex;
   justify-content: center;
@@ -34,10 +38,6 @@ h1 {
   margin: 10px;
   font-family: Poppins, sans-serif;
   border-radius: 17px;
-  -webkit-border-radius: 17px;
-  -moz-border-radius: 17px;
-  -ms-border-radius: 17px;
-  -o-border-radius: 17px;
 }
 
 .home {
@@ -47,6 +47,9 @@ h1 {
 .main-text {
   display: flex;
   justify-content: center;
+  font-weight: bolder;
+  font-family: Poppins, sans-serif;
+  font-size: medium;
 }
 
 .club-adulte {
@@ -102,4 +105,17 @@ h1 {
 .text {
   display: flex;
   justify-content: center;
+}
+
+.formulaire{
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 0.7em;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+}
+
+.formulaire:hover{
+  color:white;
+  background: blue;
 }
