@@ -43,7 +43,13 @@ h1 {
 .home {
   display: block;
 }
-
+.background{
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: fit-content;
+}
 .main-text {
   display: flex;
   justify-content: center;
