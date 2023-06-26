@@ -86,4 +86,5 @@ test:
 production:
   <<: *default
   database: formulaire_production
+  url: <%= ENV['DATABASE_URL'] %>
 
