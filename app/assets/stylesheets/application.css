@@ -127,6 +127,13 @@ h1 {
   justify-content: center;
 }
 
+.titre_formulaire{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 400px;
+}
 
 .text {
   display: flex;
