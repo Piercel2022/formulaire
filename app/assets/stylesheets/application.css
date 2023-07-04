@@ -157,3 +157,37 @@ footer{
   height: 40px;
   background-color: lightblue;
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 604px) {
+  /* Styles */
+  .titre_formulaire{
+    margin-left: 1em;
+    width: 90%;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@media only screen 
+and (max-width : 700px) {
+  /* Styles */
+  .titre_formulaire{
+    margin-left: 1em;
+    width: 90%;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@media only screen 
+and (max-width : 900px) {
+  /* Styles */
+  .titre_formulaire{
+    margin-left: 1em;
+    width: 90%;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+  }
+}
