@@ -33,7 +33,7 @@ gem 'jbuilder'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
-gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'rubocop', '>= 1.53.0', '< 2.0'
 
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
@@ -70,6 +70,6 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
-  gem 'selenium-webdriver'
-  gem 'webdrivers'
+  gem 'selenium-webdriver', '>= 4.9.1'
+  gem 'webdrivers', '>= 5.3.0'
 end
