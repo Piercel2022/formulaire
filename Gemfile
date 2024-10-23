@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.2.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.5'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -35,7 +35,7 @@ gem 'jbuilder'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
-gem 'bootstrap', '~> 5.1', '>= 5.1.3'
+gem 'bootstrap', '~> 5.3', '>= 5.3.2'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
