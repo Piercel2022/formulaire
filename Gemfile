@@ -33,7 +33,7 @@ gem 'jbuilder'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
-gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'rubocop', '>= 1.66.0', '< 2.0'
 
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
