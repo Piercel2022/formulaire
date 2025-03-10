@@ -19,7 +19,7 @@ gem 'puma', '~> 5.0'
 gem 'importmap-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails'
+gem 'turbo-rails', '>= 2.0.13'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
@@ -35,7 +35,7 @@ gem 'jbuilder'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
-gem 'bootstrap', '~> 5.1', '>= 5.1.3'
+gem 'bootstrap', '~> 5.3', '>= 5.3.2'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
